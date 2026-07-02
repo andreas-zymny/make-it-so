@@ -1,0 +1,16 @@
+---
+  title: "Make It So – News Feed"
+  description: "Automatisch aufbereitete RSS-Meldungen"
+  url: "https://andreas-zymny.github.io"
+  baseurl: "/make-it-so"
+  lang: de
+  timezone: Europe/Berlin
+
+  theme: minima
+  plugins:
+    - jekyll-feed
+
+  feed:
+    posts_limit: 50
+
+  show_excerpts: false
